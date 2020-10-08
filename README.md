@@ -1,5 +1,5 @@
 # ImageApiSample
 
-1)Run api : ImageApi folder dotnet run
-2)Run test : ApiTestsFolder dotnet test
-3)Run docker: Docker-compose up
+- Run api : ImageApi folder dotnet run
+- Run test : ApiTestsFolder dotnet test
+- Run docker: Docker-compose up
