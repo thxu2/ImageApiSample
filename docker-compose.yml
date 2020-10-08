@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  imageapi:
+    build:
+      context: ./ImageApi
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+
+  imageapitests:
+    build:
+      context: ./
+      dockerfile: ./ApiTests/Dockerfile
+ 
+  
